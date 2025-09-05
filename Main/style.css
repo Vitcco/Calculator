@@ -3,6 +3,7 @@
 html,
 body {
   height: 100vh;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,14 +23,31 @@ body {
 
 .display {
   width: 100%;
-  height: 60px;
+  height: 800px;
   margin-top: 15px;
   margin-bottom: 15px;
   text-align: right;
   padding: 10px;
   font-size: 1.5rem;
   border: none;
-  border-radius: 30px;
+  border-radius: 40px;
   background: #415242;
   color: #fff;
+}
+
+.display-container {
+  background: white;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: inset 0 2px 5px lightgrey;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 }

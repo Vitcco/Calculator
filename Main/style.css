@@ -25,7 +25,7 @@ body {
   height: 100px;
   text-align: right;
   font-size: 1.5rem;
-  border: solid 10px #161616;
+  border: solid 5px #161616;
   border-radius: 30px;
   background: #4e7877;
   color: #4e7877;
@@ -44,13 +44,37 @@ body {
   background: #303032;
   border-radius: 60px;
   padding: 20px;
-  box-shadow: 0px 0px 20px 8px #ffffff;
+  box-shadow: 0px 0px 15px 5px black;
   border: 5px solid #161616;
 }
 
-.btn {
+/* buttons styling*/
+
+.buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
+}
+
+.buttons button {
+  flex: 1 1 22%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background: #999f9b;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.buttons-container {
+  margin-top: 25px;
+}
+
+.buttons-container button:hover {
+  background: #505052;
 }

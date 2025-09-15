@@ -7,16 +7,52 @@ body {
   display: flex;
   justify-content: center;
   background-color: #161616;
-  border: 2px solid red;
+}
+
+@font-face {
+  font-family: "abdu";
+  src: url("font/abduction2002.ttf") format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: "Type";
+  src: url("font/Type Machine.ttf") format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+/*Label*/
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  border-radius: 30px;
+  background: rgb(34, 34, 34);
+  gap: 10px;
 }
 
 .name {
-  text-align: center;
-  font-size: 2.5rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
+  font-weight: 80;
+  font-size: 4rem;
+  font-family: "abdu", sans-serif;
   color: #e9eaef;
+  margin: 0;
 }
+
+.credit {
+  font-weight: 80;
+  font-size: 1.1rem;
+  font-family: "Type", sans;
+  color: #e9eaef;
+  margin: 0;
+}
+
+/*Screen*/
 
 .display {
   display: flex;
@@ -61,7 +97,7 @@ body {
 .buttons button {
   flex: 1 1 22%;
   padding: 15px;
-  border: none;
+  border: 4px solid #292828;
   border-radius: 10px;
   background: #999f9b;
   color: white;
@@ -80,7 +116,7 @@ body {
 }
 
 .buttons-container button:hover {
-  background: #505052;
+  background: hsl(0, 0%, 43%);
 }
 
 .buttons-container button {

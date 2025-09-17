@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "plat";
+  src: url("font/Platinum Sign.ttf") format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: "platU";
+  src: url("font/Platinum Sign Under.ttf") format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: "platO";
+  src: url("font/Platinum Sign Over.ttf") format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: "abdu";
+  src: url("font/abduction2002.ttf") format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: "Type";
+  src: url("font/Type Machine.ttf") format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}

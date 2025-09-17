@@ -1,26 +1,12 @@
 /* centralizing page body */
 
 body {
-  height: 100vh;
-  margin: 0;
-  padding: 10px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
   background-color: #161616;
-}
-
-@font-face {
-  font-family: "abdu";
-  src: url("font/abduction2002.ttf") format("truetype");
-  font-weight: normal;
-  font-size: normal;
-}
-
-@font-face {
-  font-family: "Type";
-  src: url("font/Type Machine.ttf") format("truetype");
-  font-weight: normal;
-  font-size: normal;
 }
 
 /*Label*/
@@ -29,19 +15,49 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 15px;
   width: 400px;
-  height: 200px;
+  height: 250px;
   border-radius: 30px;
   background: rgb(34, 34, 34);
   gap: 10px;
 }
 
+/* Style name*/
 .name {
-  font-weight: 80;
-  font-size: 4rem;
-  font-family: "abdu", sans-serif;
-  color: #e9eaef;
+  position: relative;
+  font-size: 34px;
   margin: 0;
+  font-weight: 100;
+}
+
+.font-main {
+  font-family: "plat";
+  color: black;
+  font-size: 34px;
+  top: 0;
+  left: 0;
+  font-weight: 100;
+}
+
+.font-over {
+  position: absolute;
+  font-size: 34px;
+  font-family: "platO";
+  color: #4e7877;
+  top: 0;
+  left: 0;
+  font-weight: 100;
+}
+
+.font-under {
+  position: absolute;
+  font-weight: 100;
+  font-size: 34px;
+  font-family: "platU";
+  color: white;
+  top: 0;
+  left: 0;
 }
 
 .credit {
@@ -72,16 +88,15 @@ body {
   justify-content: center;
 }
 
-/* calculator container */
-
+/* calculator  */
 .calculator {
+  border: solid 2.5px #4e7877;
   width: 400px;
   height: 800px;
   background: #303032;
   border-radius: 60px;
   padding: 20px;
-  box-shadow: 0px 0px 15px 5px black;
-  border: 5px solid #413f3f;
+  box-shadow: 0px 0px 25px 8px black;
 }
 
 /* buttons styling*/
